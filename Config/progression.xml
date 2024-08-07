@@ -1,0 +1,8 @@
+<progression>
+    <csv xpath="//crafting_skill[@name='craftingElectrician']/display_entry[@name_key='electricianT4']/unlock_entry/@item" delim="," op="add">rollUpDoor3x3_PoweredVariantHelper</csv>
+    <csv xpath="//crafting_skill[@name='craftingElectrician']/display_entry[@name_key='electricianT4']/unlock_entry/@item" delim="," op="add">rollUpDoor5x4_PoweredVariantHelper</csv>
+    <csv xpath="//crafting_skill[@name='craftingElectrician']/display_entry[@name_key='electricianT4']/unlock_entry/@item" delim="," op="add">rollUpDoor7x4_PoweredVariantHelper</csv>
+    <csv xpath="//crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='75,100']/@tags" delim="," op="add">rollUpDoor3x3_PoweredVariantHelper</csv>
+    <csv xpath="//crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='75,100']/@tags" delim="," op="add">rollUpDoor5x4_PoweredVariantHelper</csv>
+    <csv xpath="//crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='75,100']/@tags" delim="," op="add">rollUpDoor7x4_PoweredVariantHelper</csv>
+</progression>

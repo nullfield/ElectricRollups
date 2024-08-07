@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="ElectricRollUps" />
+	<DisplayName value="Electric Roll Ups"/>
+	<Description value="This mod adds electric versions of rollups." />
+	<Author value="drgnkght" />
+	<Version value="1.0.0.0" />
+	<Website value="https://github.com/nullfield/ElectricRollups" />
+</xml>

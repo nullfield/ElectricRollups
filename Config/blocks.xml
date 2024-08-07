@@ -1,0 +1,448 @@
+<blocks>
+    <insertBefore xpath="/blocks/block[@name='rollUpDoor3x3White']">
+        <block name="rollUpGate3x3White_Powered">
+	        <property name="Extends" value="rollUpGate3x3White"/>
+            <property name="Class" value="PoweredDoor"/>
+            <property name="CustomIcon" value="rollUpGate3x3White"/>
+	        <property name="CustomIconTint" value="CCCCC4"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="SortOrder2" value="0001"/>
+        </block>
+
+        <block name="rollUpGate4x3White_Powered">
+	        <property name="Extends" value="rollUpGate4x3White"/>
+            <property name="Class" value="PoweredDoor"/>
+            <property name="CustomIcon" value="rollUpGate4x3White"/>
+	        <property name="CustomIconTint" value="CCCCC4"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="SortOrder2" value="0001"/>
+        </block>
+
+        <block name="rollUpGate4x3DiagonalWhite_Powered">
+	        <property name="Extends" value="rollUpGate4x3DiagonalWhite"/>
+            <property name="Class" value="PoweredDoor"/>
+            <property name="CustomIcon" value="rollUpGate4x3DiagonalWhite"/>
+	        <property name="CustomIconTint" value="CCCCC4"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="SortOrder2" value="0001"/>
+        </block>
+
+        <block name="rollUpGate5x3White_Powered">
+	        <property name="Extends" value="rollUpGate5x3White"/>
+            <property name="Class" value="PoweredDoor"/>
+            <property name="CustomIcon" value="rollUpGate5x3White"/>
+	        <property name="CustomIconTint" value="CCCCC4"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="SortOrder2" value="0001"/>
+        </block>
+    </insertBefore>
+
+    <insertBefore xpath="/blocks/block[@name='rollUpDoor5x4White']">
+        <!-- White -->
+        <block name="rollUpDoor3x3White_Powered">
+	        <property name="Extends" value="rollUpDoor3x3White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor3x3White"/>
+	        <property name="CustomIconTint" value="CCCCC4"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="CCCCC4"/>
+	        <property name="SortOrder2" value="0001"/>
+        </block>
+        
+        <!-- Brown -->
+        <block name="rollUpDoor3x3Brown_Powered">
+	        <property name="Extends" value="rollUpDoor3x3White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor3x3White"/>
+	        <property name="CustomIconTint" value="5E5146"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="5E5146"/>
+	        <property name="SortOrder2" value="0002"/>
+        </block>
+
+        <!-- Red -->
+        <block name="rollUpDoor3x3Red_Powered">
+	        <property name="Extends" value="rollUpDoor3x3White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor3x3White"/>
+	        <property name="CustomIconTint" value="844C51"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="844C51"/>
+	        <property name="SortOrder2" value="0003"/>
+        </block>
+
+        <!-- Orange -->
+        <block name="rollUpDoor3x3Orange_Powered">
+	        <property name="Extends" value="rollUpDoor3x3White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor3x3White"/>
+	        <property name="CustomIconTint" value="E07F4B"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="E07F4B"/>
+	        <property name="SortOrder2" value="0004"/>
+        </block>
+
+        <!-- Yellow -->
+        <block name="rollUpDoor3x3Yellow_Powered">
+	        <property name="Extends" value="rollUpDoor3x3White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor3x3White"/>
+	        <property name="CustomIconTint" value="E0DE91"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="E0DE91"/>
+	        <property name="SortOrder2" value="0005"/>
+        </block>
+
+        <!-- Green -->
+        <block name="rollUpDoor3x3Green_Powered">
+	        <property name="Extends" value="rollUpDoor3x3White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor3x3White"/>
+	        <property name="CustomIconTint" value="7C8976"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="7C8976"/>
+	        <property name="SortOrder2" value="0006"/>
+        </block>
+
+        <!-- Blue -->
+        <block name="rollUpDoor3x3Blue_Powered">
+	        <property name="Extends" value="rollUpDoor3x3White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor3x3White"/>
+	        <property name="CustomIconTint" value="4E79A6"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="4E79A6"/>
+	        <property name="SortOrder2" value="0007"/>
+        </block>
+
+        <!-- Purple -->
+        <block name="rollUpDoor3x3Purple_Powered">
+	        <property name="Extends" value="rollUpDoor3x3White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor3x3White"/>
+	        <property name="CustomIconTint" value="746993"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="746993"/>
+	        <property name="SortOrder2" value="0008"/>
+        </block>
+
+        <!-- Grey -->
+        <block name="rollUpDoor3x3Grey_Powered">
+	        <property name="Extends" value="rollUpDoor3x3White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor3x3White"/>
+	        <property name="CustomIconTint" value="939393"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="939393"/>
+	        <property name="SortOrder2" value="0009"/>
+        </block>
+
+        <!-- Black -->
+        <block name="rollUpDoor3x3Black_Powered">
+	        <property name="Extends" value="rollUpDoor3x3White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor3x3White"/>
+	        <property name="CustomIconTint" value="000000"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="000000"/>
+	        <property name="SortOrder2" value="0010"/>
+        </block>
+
+        <!-- Pink -->
+        <block name="rollUpDoor3x3Pink_Powered">
+	        <property name="Extends" value="rollUpDoor3x3White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor3x3White"/>
+	        <property name="CustomIconTint" value="A686A8"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="A686A8"/>
+	        <property name="SortOrder2" value="0011"/>
+        </block>
+    </insertBefore>
+
+    <insertBefore xpath="/blocks/block[@name='rollUpDoor7x4White']">
+        <!-- White -->
+        <block name="rollUpDoor5x4White_Powered">
+	        <property name="Extends" value="rollUpDoor5x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor5x4White"/>
+	        <property name="CustomIconTint" value="CCCCC4"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="CCCCC4"/>
+	        <property name="SortOrder2" value="0001"/>
+        </block>
+
+        <!-- Brown -->
+        <block name="rollUpDoor5x4Brown_Powered">
+	        <property name="Extends" value="rollUpDoor5x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor5x4White"/>
+	        <property name="CustomIconTint" value="5E5146"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="5E5146"/>
+	        <property name="SortOrder2" value="0002"/>
+        </block>
+
+        <!-- Red -->
+        <block name="rollUpDoor5x4Red_Powered">
+	        <property name="Extends" value="rollUpDoor5x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor5x4White"/>
+	        <property name="CustomIconTint" value="844C51"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="844C51"/>
+	        <property name="SortOrder2" value="0003"/>
+        </block>
+
+        <!-- Orange -->
+        <block name="rollUpDoor5x4Orange_Powered">
+	        <property name="Extends" value="rollUpDoor5x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor5x4White"/>
+	        <property name="CustomIconTint" value="E07F4B"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="E07F4B"/>
+	        <property name="SortOrder2" value="0004"/>
+        </block>
+
+        <!-- Yellow -->
+        <block name="rollUpDoor5x4Yellow_Powered">
+	        <property name="Extends" value="rollUpDoor5x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor5x4White"/>
+	        <property name="CustomIconTint" value="E0DE91"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="E0DE91"/>
+	        <property name="SortOrder2" value="0005"/>
+        </block>
+
+        <!-- Green -->
+        <block name="rollUpDoor5x4Green_Powered">
+	        <property name="Extends" value="rollUpDoor5x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor5x4White"/>
+	        <property name="CustomIconTint" value="7C8976"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="7C8976"/>
+	        <property name="SortOrder2" value="0006"/>
+        </block>
+
+        <!-- Blue -->
+        <block name="rollUpDoor5x4Blue_Powered">
+	        <property name="Extends" value="rollUpDoor5x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor5x4White"/>
+	        <property name="CustomIconTint" value="4E79A6"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="4E79A6"/>
+	        <property name="SortOrder2" value="0007"/>
+        </block>
+
+        <!-- Purple -->
+        <block name="rollUpDoor5x4Purple_Powered">
+	        <property name="Extends" value="rollUpDoor5x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor5x4White"/>
+	        <property name="CustomIconTint" value="746993"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="746993"/>
+	        <property name="SortOrder2" value="0008"/>
+        </block>
+
+        <!-- Grey -->
+        <block name="rollUpDoor5x4Grey_Powered">
+	        <property name="Extends" value="rollUpDoor5x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor5x4White"/>
+	        <property name="CustomIconTint" value="939393"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="939393"/>
+	        <property name="SortOrder2" value="0009"/>
+        </block>
+
+        <!-- Black -->
+        <block name="rollUpDoor5x4Black_Powered">
+	        <property name="Extends" value="rollUpDoor5x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor5x4White"/>
+	        <property name="CustomIconTint" value="000000"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="000000"/>
+	        <property name="SortOrder2" value="0010"/>
+        </block>
+
+        <!-- Pink -->
+        <block name="rollUpDoor5x4Pink_Powered">
+	        <property name="Extends" value="rollUpDoor5x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor5x4White"/>
+	        <property name="CustomIconTint" value="A686A8"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="A686A8"/>
+	        <property name="SortOrder2" value="0011"/>
+        </block>
+    </insertBefore>
+
+    <insertBefore xpath="/blocks/block[@name='woodHatch']">
+        <!-- White -->
+        <block name="rollUpDoor7x4White_Powered">
+	        <property name="Extends" value="rollUpDoor7x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor7x4White"/>
+	        <property name="CustomIconTint" value="CCCCC4"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="CCCCC4"/>
+	        <property name="SortOrder2" value="0001"/>
+        </block>
+
+        <!-- Brown -->
+        <block name="rollUpDoor7x4Brown_Powered">
+	        <property name="Extends" value="rollUpDoor7x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor7x4White"/>
+	        <property name="CustomIconTint" value="5E5146"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="5E5146"/>
+	        <property name="SortOrder2" value="0002"/>
+        </block>
+
+        <!-- Red -->
+        <block name="rollUpDoor7x4Red_Powered">
+	        <property name="Extends" value="rollUpDoor7x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor7x4White"/>
+	        <property name="CustomIconTint" value="844C51"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="844C51"/>
+	        <property name="SortOrder2" value="0003"/>
+        </block>
+
+        <!-- Orange -->
+        <block name="rollUpDoor7x4Orange_Powered">
+	        <property name="Extends" value="rollUpDoor7x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor7x4White"/>
+	        <property name="CustomIconTint" value="E07F4B"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="E07F4B"/>
+	        <property name="SortOrder2" value="0004"/>
+        </block>
+
+        <!-- Yellow -->
+        <block name="rollUpDoor7x4Yellow_Powered">
+	        <property name="Extends" value="rollUpDoor7x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor7x4White"/>
+	        <property name="CustomIconTint" value="E0DE91"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="E0DE91"/>
+	        <property name="SortOrder2" value="0005"/>
+        </block>
+
+        <!-- Green -->
+        <block name="rollUpDoor7x4Green_Powered">
+	        <property name="Extends" value="rollUpDoor7x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor7x4White"/>
+	        <property name="CustomIconTint" value="7C8976"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="7C8976"/>
+	        <property name="SortOrder2" value="0006"/>
+        </block>
+
+        <!-- Blue -->
+        <block name="rollUpDoor7x4Blue_Powered">
+	        <property name="Extends" value="rollUpDoor7x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor7x4White"/>
+	        <property name="CustomIconTint" value="4E79A6"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="4E79A6"/>
+	        <property name="SortOrder2" value="0007"/>
+        </block>
+
+        <!-- Purple -->
+        <block name="rollUpDoor7x4Purple_Powered">
+	        <property name="Extends" value="rollUpDoor7x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor7x4White"/>
+	        <property name="CustomIconTint" value="746993"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="746993"/>
+	        <property name="SortOrder2" value="0008"/>
+        </block>
+
+        <!-- Grey -->
+        <block name="rollUpDoor7x4Grey_Powered">
+	        <property name="Extends" value="rollUpDoor7x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor7x4White"/>
+	        <property name="CustomIconTint" value="939393"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="939393"/>
+	        <property name="SortOrder2" value="0009"/>
+        </block>
+
+        <!-- Black -->
+        <block name="rollUpDoor7x4Black_Powered">
+	        <property name="Extends" value="rollUpDoor7x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor7x4White"/>
+	        <property name="CustomIconTint" value="000000"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="000000"/>
+	        <property name="SortOrder2" value="0010"/>
+        </block>
+
+        <!-- Pink -->
+        <block name="rollUpDoor7x4Pink_Powered">
+	        <property name="Extends" value="rollUpDoor7x4White"/>
+            <property name="Class" value="PoweredDoor"/>
+	        <property name="CustomIcon" value="rollUpDoor7x4White"/>
+	        <property name="CustomIconTint" value="A686A8"/>
+            <property name="ItemTypeIcon" value="electric_power"/>
+	        <property name="TintColor" value="A686A8"/>
+	        <property name="SortOrder2" value="0011"/>
+        </block>
+    </insertBefore>
+    <insertBefore xpath="/blocks/block[@name='appliancesVariantHelper']">
+        <block name="rollUpDoor3x3_PoweredVariantHelper">
+	        <property name="Extends" value="rollUpDoor3x3White"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="CustomIcon" value="rollUpDoor3x3White"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="rollUpDoor3x3Brown_Powered,rollUpDoor3x3Red_Powered,rollUpDoor3x3Orange_Powered,rollUpDoor3x3Yellow_Powered,rollUpDoor3x3Green_Powered,rollUpDoor3x3Blue_Powered,rollUpDoor3x3Purple_Powered,rollUpDoor3x3Grey_Powered,rollUpDoor3x3White_Powered,rollUpDoor3x3Black_Powered,rollUpDoor3x3Pink_Powered"/>
+	        <property name="SortOrder1" value="U200"/>
+	        <property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+            <property name="UnlockedBy" value="craftingElectrician"/>
+        </block>
+
+        <block name="rollUpDoor5x4_PoweredVariantHelper">
+	        <property name="Extends" value="rollUpDoor5x4White"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="CustomIcon" value="rollUpDoor5x4White"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="rollUpDoor5x4Brown_Powered,rollUpDoor5x4Red_Powered,rollUpDoor5x4Orange_Powered,rollUpDoor5x4Yellow_Powered,rollUpDoor5x4Green_Powered,rollUpDoor5x4Blue_Powered,rollUpDoor5x4Purple_Powered,rollUpDoor5x4Grey_Powered,rollUpDoor5x4White_Powered,rollUpDoor5x4Black_Powered,rollUpDoor5x4Pink_Powered"/>
+	        <property name="SortOrder1" value="U200"/>
+	        <property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+            <property name="UnlockedBy" value="craftingElectrician"/>
+        </block>
+
+        <block name="rollUpDoor7x4_PoweredVariantHelper">
+	        <property name="Extends" value="rollUpDoor7x4White"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="CustomIcon" value="rollUpDoor7x4White"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="rollUpDoor7x4Brown_Powered,rollUpDoor7x4Red_Powered,rollUpDoor7x4Orange_Powered,rollUpDoor7x4Yellow_Powered,rollUpDoor7x4Green_Powered,rollUpDoor7x4Blue_Powered,rollUpDoor7x4Purple_Powered,rollUpDoor7x4Grey_Powered,rollUpDoor7x4White_Powered,rollUpDoor7x4Black_Powered,rollUpDoor7x4Pink_Powered"/>
+	        <property name="SortOrder1" value="U200"/>
+	        <property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+            <property name="UnlockedBy" value="craftingElectrician"/>
+        </block>
+    </insertBefore>
+</blocks>
